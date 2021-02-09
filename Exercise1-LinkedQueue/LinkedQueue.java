@@ -11,9 +11,7 @@ public final class LinkedQueue<T> implements QueueInterface<T>
         lastNode = null;
     }
 
-
     // public LinkedQueue(T newEntry, Node position )
-
     public void enqueue(T newEntry) {
         Node newNode = new Node(newEntry, null);
         if (isEmpty()) {
